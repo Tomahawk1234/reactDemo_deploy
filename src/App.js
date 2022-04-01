@@ -1,11 +1,11 @@
 import './App.css';
-import Header from './components/Header';
-import Button from './components/Button';
+import LoginForm from './components/LoginForm.js';
+import SubmitButton from './components/SubmitButton.js';
 
 function App() {
   return (
     <div>
-      <Header title='Header Title'/>
+      <h1>Hello BIRD</h1>
     </div>
   );
 }
